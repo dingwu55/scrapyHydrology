@@ -43,12 +43,11 @@ class EmailServer():
     def config_server():
         # Configure mailbox
         config = dict()
-        config['send_email'] = '861276842@qq.com'
+        config['send_email'] = '**********@qq.com'
         config['passwd'] = 'jhsvuvkeorogbbjd'
 
         config['smtp_server'] = 'smtp.qq.com'  # 设置服务器
-        config['target_email'] = ['1099102769@qq.com', '861276842@qq.com', '435630821@qq.com']
-        # config['target_email'] = ['1099102769@qq.com', '861276842@qq.com']
+        config['target_email'] = ['*********@qq.com']
         return config
 
     def send_email(self):

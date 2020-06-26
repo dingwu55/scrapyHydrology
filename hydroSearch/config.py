@@ -10,6 +10,6 @@ def get_config():
         'PORT': "7062",
         'DATABASE': "bsimcloud",
         'USERNAME': "bsimcloud",
-        'PASSWORD': "BsimCloud_123456",
+        'PASSWORD': "**********",
     }
     return config
